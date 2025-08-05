@@ -93,7 +93,7 @@ function iniciarCompra() {
     let mensajeRecompensa = "";
     switch (true) {
         case (totalCompra >= 75000):
-            mensajeRecompensa = "¡Con tu compra te llevas un agua micelar de regalo!";
+            mensajeRecompensa = "Con tu compra te llevas un agua micelar de regalo!";
             break;
         case (totalCompra >= 50000):
             mensajeRecompensa = "Felicitaciones! Has ganado un envío gratis.";
